@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title></title>
+    <style>
+        * {
+            font-family: "黑体";
+            color: rgb(0, 0, 0);
+            line-height: 175%;
+            font-size: 14px;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        #top {
+            width: 100%;
+            height: 147px;
+            text-align: center;
+            z-index: 1000;
+            position: absolute;
+        }
+
+        img {
+            border: 0px;
+        }
+
+        #daohang {
+            width: 1003px;
+            height: 147px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        #logo {
+            width: 151px;
+            height: 147px;
+            float: left;
+        }
+
+        #caidan {
+            width: 852px;
+            height: 65px;
+            float: right;
+            margin-top: 72px;
+        }
+
+        #btn0 {
+            width: 100px;
+            height: 65px;
+            overflow: hidden;
+            float: left;
+            margin-left: 120px;
+        }
+
+        #btn0 a {
+            width: 100px;
+            height: 65px;
+            display: block;
+        }
+
+        a:link {
+            color: #8a8a8a;
+            text-decoration: none;
+        }
+
+        #btn1 {
+            width: 100px;
+            height: 65px;
+            overflow: hidden;
+            float: left;
+            margin-left: 20px;
+        }
+
+        #btn2 {
+            width: 100px;
+            height: 65px;
+            overflow: hidden;
+            float: left;
+            margin-left: 20px;
+        }
+
+        #btn3 {
+            width: 100px;
+            height: 65px;
+            overflow: hidden;
+            float: left;
+            margin-left: 30px;
+        }
+
+        #btn4 {
+            width: 100px;
+            height: 65px;
+            overflow: hidden;
+            float: left;
+            margin-left: 30px;
+        }
+
+        #btn5 {
+            width: 100px;
+            height: 65px;
+            overflow: hidden;
+            float: left;
+            margin-left: 30px;
+        }
+
+        .cls {
+            clear: both;
+        }
+
+        #topbanner {
+            width: 100%;
+            height: 890px;
+            background: url(../images/topbanner.jpg) top center;
+        }
+
+        #topbannerbtn {
+            width: 390px;
+            height: 47px;
+            margin: 0 auto;
+        }
+
+        #topbannerbtn1 {
+            width: 185px;
+            height: 47px;
+            overflow: hidden;
+            float: left;
+        }
+
+        #topbannerbtn1 a {
+
+            text-align: center;
+            line-height: 47px;
+            width: 185px;
+            height: 47px;
+            display: block;
+            background: rgba(108, 188, 185, 1);
+            border-radius: 5px;
+            color: white;
+        }
+
+        #topbannerbtn1 a:hover {
+            background: rgba(108, 188, 185, .8);
+        }
+
+        a:link {
+            color: #8a8a8a;
+            text-decoration: none;
+        }
+
+        #topbannerbtn2 {
+
+            width: 185px;
+            height: 47px;
+            overflow: hidden;
+            float: left;
+            margin-left: 20px;
+        }
+
+        #topbannerbtn2 a {
+            line-height: 47px;
+            text-align: center;
+            width: 185px;
+            height: 47px;
+            display: block;
+            background: rgba(114, 99, 87, 1);
+            color: white;
+        }
+
+        #topbannerbtn2 a:hover {
+            background: rgba(114, 99, 87, .8);
+        }
+
+        a:link {
+            color: #8a8a8a;
+            text-decoration: none;
+        }
+
+        #service {
+            width: 100%;
+            height: auto;
+        }
+
+        #inservice {
+            width: 1003px;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hengxian {
+            width: 100%;
+            height: 1px;
+            background: #c2c2c2;
+            overflow: hidden;
+        }
+
+        #serviceitem {
+            width: 195px;
+            height: 415px;
+            overflow: hidden;
+            float: left;
+            margin-left: 5px;
+        }
+
+        /*ssssss*/
+
+        #coach {
+            width: 100%;
+            height: auto;
+            background: #7accc8;
+            margin-top: 87px;
+        }
+
+        #incoach {
+            width: 1003px;
+            height: 502px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #infor {
+            width: 100%;
+            height: auto;
+        }
+
+        #ininfor {
+            width: 1003px;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .mxjl {
+            float: left;
+            width: 240px;
+            height: 370px;
+        }
+
+        .slider {
+            float: right;
+            width: 763px;
+            height: 370px;
+            position: relative;
+        }
+
+        .sliderContent {
+            float: left;
+            width: 100%;
+            height: 370px;
+            clear: both;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .sliderBullets {
+            position: absolute;
+            bottom: -20px;
+            left: 52%;
+            z-index: 50;
+            margin-left: -45px;
+        }
+
+        #infor {
+            width: 100%;
+            height: auto;
+        }
+
+        #ininfor {
+            width: 1003px;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #incontact {
+            width: 1003px;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+            color: #fff;
+        }
+        #incontactleft {
+            width: 563px;
+            height: auto;
+            float: left;
+            color: #fff;
+            text-align: left;
+
+        }
+        #incontactright {
+            width: 420px;
+            height: auto;
+            float: right;
+            text-align: left;
+            color: #fff;
+        }
+        #contact {
+            width: 100%;
+            height: auto;
+            background: #939498;
+            color: #fff;
+        }
+
+        tbody {
+            display: table-row-group;
+            vertical-align: middle;
+            border-color: inherit;
+        }
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+        }
+        td, th {
+            display: table-cell;
+            vertical-align: inherit;
+        }
+        .inputstyle {
+            width: 460px;
+            height: 24px;
+            background: #c9cacc;
+            border: 0px;
+            color: white;
+        }
+        .inputstyle2 {
+            width: 456px;
+            height: 170px;
+            background: #c9cacc;
+            border: 0px;
+            color: white;
+
+        }
+      input::-webkit-input-placeholder{
+            color:white;
+      }
+        textarea::-webkit-input-placeholder{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+<div id="top">
+    <div id="daohang">
+        <div id="logo"><a href="#"><img src="../images/logo.jpg" width="151" height="147"></a>
+        </div>
+        <div id="caidan">
+            <div id="btn0"><a href="#">首页</a></div>
+            <div id="btn1"><a href="#">清生活</a></div>
+            <div id="btn2"><a href="#">清门店</a></div>
+            <div id="btn3"><a href="#">清教练</a></div>
+            <div id="btn4"><a href="#">清课表</a></div>
+            <div id="btn5"><a href="#">联系清</a></div>
+            <div class="cls"></div>
+        </div>
+        <div class="cls"></div>
+    </div>
+
+
+</div>
+<div id="topbanner">
+
+
+    <div id="topbannerbtn">
+        <div style="width:100%; height:690px;"></div>
+        <div id="topbannerbtn1"><a href="#">了解清</a></div>
+        <div id="topbannerbtn2"><a href="#">加入清</a></div>
+
+
+        <div class="cls"></div>
+    </div>
+</div>
+<div id="service">
+    <div id="inservice">
+
+
+        <a href="#" id="dd"><img src="../images/servicesitem.png"></a>
+        <div class="hengxian"></div>
+        <br>
+
+        <script type="text/javascript">
+            function MM_swapImgRestore() { //v3.0
+                var i, x, a = document.MM_sr;
+                for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+            }
+            function MM_preloadImages() { //v3.0
+                var d = document;
+                if (d.images) {
+                    if (!d.MM_p) d.MM_p = new Array();
+                    var i, j = d.MM_p.length, a = MM_preloadImages.arguments;
+                    for (i = 0; i < a.length; i++)
+                        if (a[i].indexOf("#") != 0) {
+                            d.MM_p[j] = new Image;
+                            d.MM_p[j++].src = a[i];
+                        }
+                }
+            }
+
+            function MM_findObj(n, d) { //v4.01
+                var p, i, x;
+                if (!d) d = document;
+                if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+                    d = parent.frames[n.substring(p + 1)].document;
+                    n = n.substring(0, p);
+                }
+                if (!(x = d[n]) && d.all) x = d.all[n];
+                for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+                for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+                if (!x && d.getElementById) x = d.getElementById(n);
+                return x;
+            }
+
+            function MM_swapImage() { //v3.0
+                var i, j = 0, x, a = MM_swapImage.arguments;
+                document.MM_sr = new Array;
+                for (i = 0; i < (a.length - 2); i += 3)
+                    if ((x = MM_findObj(a[i])) != null) {
+                        document.MM_sr[j++] = x;
+                        if (!x.oSrc) x.oSrc = x.src;
+                        x.src = a[i + 2];
+                    }
+            }
+        </script>
+
+        <div id="serviceitem"><a href="#" onmouseout="MM_swapImgRestore()"
+                                 onmouseover="MM_swapImage('Image9','','../images/itemtp1.png',1)"><img
+                src="../images/itemtp1-1.png" width="195" height="415" id="Image9"></a></div>
+
+        <div id="serviceitem"><a href="#" onmouseout="MM_swapImgRestore()"
+                                 onmouseover="MM_swapImage('Image8','','../images/itemtp2.png',1)"><img
+                src="../images/itemtp2-1.png" width="195" height="415" id="Image8"></a></div>
+        <div id="serviceitem"><a href="#" onmouseout="MM_swapImgRestore()"
+                                 onmouseover="MM_swapImage('Image7','','../images/itemtp3.png',1)"><img
+                src="../images/itemtp3-1.png" width="195" height="415" id="Image7"></a></div>
+        <div id="serviceitem"><a href="#" onmouseout="MM_swapImgRestore()"
+                                 onmouseover="MM_swapImage('Image6','','../images/itemtp4.png',1)"><img
+                src="../images/itemtp4-1.png" width="195" height="415" id="Image6"></a></div>
+
+        <div id="serviceitem"><a href="#" onmouseout="MM_swapImgRestore()"
+                                 onmouseover="MM_swapImage('Image11','','../images/itemtp5.png',1)"><img
+                src="../images/itemtp5-1.png" width="195" height="415" id="Image11"></a></div>
+
+        <div class="cls"></div>
+
+    </div>
+</div>
+
+<div id="coach">
+    <div id="incoach">
+        <center>
+            <a href="#" target="_parent"><img src="../images/coachteam.png" width="266"></a>
+        </center>
+        <div class="mxjl">
+            <img src="../images/mxjl.jpg" style="margin-top: -10px">
+        </div>
+
+        <div class="slider">
+            <div class="sliderContent">
+                <div class="item" style="background-color: rgb(123, 203, 200); z-index: 7; left: 0px;">
+                    <a hidefocus="true" style="outline: none;">
+                        <img src="../images/coachbanner2.jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="sliderArrows" style="display: none;">
+                <a href="#" class="prev png_bg" hidefocus="true"
+                   style="outline:none;">Previous</a>
+                <a href="#" class="next png_bg" hidefocus="true"
+                   style="outline: none;">Next</a>
+                <a href="#" class="prev png_bg">Previous</a><a
+                    href="#" class="next png_bg">Next</a><a href="#"
+                                                            class="prev png_bg">Previous</a><a
+                    href="#" class="next png_bg">Next</a></div>
+
+            <div class="sliderArrows" style="display: none;"><a href="#"
+                                                                class="prev png_bg">Previous</a><a
+                    href="#" class="next png_bg">Next</a><a href="#"
+                                                            class="prev png_bg">Previous</a><a
+                    href="#" class="next png_bg">Next</a></div>
+
+            <div class="sliderArrows" style="display: none;"><a href="#" class="prev png_bg">Previous</a><a href="#"
+                                                                                                            class="next png_bg">Next</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="infor">
+    <div id="ininfor"><a href="#"><img src="../images/infor.png"></a>
+        <div class="hengxian"></div>
+
+        <br>
+        <iframe src="../images/infor.html" scrolling="no" width="1003" height="600" frameborder="0"></iframe>
+
+
+    </div>
+
+</div>
+
+
+<div id="contact">
+    <div id="incontact">
+        <img src="../images/contact.png">
+        <br>
+        <br>
+        <div id="incontactleft">
+
+
+            <form id="EditForm" name="EditForm" >
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                    <tr>
+                        <td height="25" colspan="2"><input name="bname" type="text" class="inputstyle"
+                                                           placeholder="请输入您的姓名" style="border-bottom: 1px solid grey"></td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="2"><input name="dianhua" type="text" class="inputstyle"
+                                                           placeholder="请输入您的常用电话" style="border-bottom: 1px solid grey"></td>
+                    </tr>
+
+                    <tr>
+                        <td height="25" colspan="2"><input name="Email" type="text" class="inputstyle"
+                                                           placeholder="请输入您的常用邮箱" style="border-bottom: 1px solid grey"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea name="neirong" id="test" class="inputstyle2"
+                                                  placeholder="请提交您的意见或者建议，字数请保持在220个字内"></textarea><br>
+
+                            <font style="color:#DBDBDB;">共可输入220个字符，还剩 <span id="testtest">220</span>个字符</font>
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="90"><input type="text" name="Code" size="20" placeholder="请输入验证码"></td>
+                        <td width="360" align="left">
+                            <div style="background:#FFFFFF; padding:3px;cursor:pointer; width:33px; height:13px;"
+                                 title="请点击刷新验证码">
+                                <img id="Code" src="" align="absmiddle" style="width:33px; height:13px; "></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" name="yingpin" id="yingpin" value="提  交"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+
+
+        </div>
+        <div id="incontactright">
+
+            <span style="color: #3ecec5">苏宁广场店</span> <br>
+            电话：028-85980555<br>
+
+            地址：成都市高新区天府大道北段8号苏宁广场6楼<br>
+            <br>
+
+
+            <span style="color: #3ecec5">仁和春天国际花园店</span> <br>
+
+            电话：028-61139555<br>
+
+            地址：成都市高新区锦晖西二街288号仁和春天国际花园10号楼<br>
+            <br>
+
+
+            <span style="color: #3ecec5">西村大院店</span> <br>
+
+            电话：028-61319777<br>
+
+            地址：成都市青羊区贝森北路1-5号西村大院负1楼<br>
+            <br>
+
+
+            <span style="color: #3ecec5">环球中心店</span> <br>
+
+            电话：028-65030555<br>
+
+            地址：成都市高新区天府大道北段1700号环球购物中心5楼<br>
+            <br>
+
+
+            <span style="color: #3ecec5">银泰城店</span> <br>
+
+            电话：028-87768222<br>
+
+            地址：成都市高新区益州大道1999号银泰城5楼<br>
+            ©2016 清健身 版权所有.DESIGN BY <a href="#" target="_blank">视觉映画.</a></div>
+        <div class="cls"></div>
+        <br>
+        <br>
+
+
+    </div>
+
+</div>
+
+</body>
+</html>
